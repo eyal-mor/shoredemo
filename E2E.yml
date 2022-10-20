@@ -1,5 +1,5 @@
 application: "shoredemo"
-pipeline: "shoredemo-pipeline-I256"
+pipeline: "production-shoredemo-pipeline"
 tests:
   "Test 1/2":
     execution_args:
@@ -8,14 +8,12 @@ tests:
     assertions:
       "Run My Kube Job 1":
         expected_status: succeeded
-      "Run My Kube Job 2":
-        expected_status: succeeded
-  "Test Type Cast Fix":
-    execution_args:
-      parameters:
-        echo1: 1
-    assertions:
-      "Run My Kube Job 1":
-        expected_status: succeeded
-      "Run My Kube Job 2":
-        expected_status: terminal
+  # "Test Type Cast Fix":
+  #   execution_args:
+  #     parameters:
+  #       echo1: 1
+  #   assertions:
+  #     "Run My Kube Job 1":
+  #       expected_status: succeeded
+  #     "Run My Kube Job 2":
+  #       expected_status: terminal

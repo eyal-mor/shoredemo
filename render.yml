@@ -1,3 +1,2 @@
 application: "shoredemo"
-pipeline: "shoredemo-pipeline-I256"
-example_value: "World"
+pipeline: "production-shoredemo-pipeline"
