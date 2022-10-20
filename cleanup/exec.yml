@@ -1,0 +1,4 @@
+application: "shoredemo"
+pipeline: "shoredemo-pipeline-cleanup"
+parameters:
+  my_pipeline_param: "Example Value"

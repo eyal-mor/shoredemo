@@ -1,0 +1,4 @@
+application: "shoredemo"
+pipeline: "shoredemo-pipeline-I256"
+parameters:
+  echo1: 1
