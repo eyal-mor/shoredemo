@@ -28,8 +28,8 @@ function(params={}) (
             image: "busybox",
             command: [
               "echo",
-              // spel.expression(spel.parameter('echo1')),
-              spel.expression('%s.toString()' % spel.parameter('echo1')),
+              spel.expression(spel.parameter('echo1')),
+              // spel.expression('%s.toString()' % spel.parameter('echo1')),
             ],
           }]
 				},
