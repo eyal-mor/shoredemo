@@ -1,7 +1,3 @@
-Explicit!
-Focus on moves between screens.
-Describe in excruciating details what is going on.
-
 We talked about why Shore, let's see how to Shore.
 
 I'm going to show you how we work with Shore in Autodesk.
