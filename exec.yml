@@ -1,4 +1,4 @@
 application: "shoredemo"
 pipeline: "production-shoredemo-pipeline"
 parameters:
-  echo1: 1
+  echo1: "1"
